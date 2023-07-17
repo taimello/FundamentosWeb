@@ -4,34 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
+
+    <link rel="stylesheet" href="./css/styles.css">
+
 </head>
 <body>
 
-    <ul>
+    <ul id="menu">
         <li><a href="file:///C:/Users/user/Desktop/Fudamentos%20web/paginaUm.html" >Home</a>
         </li>
         <li><a href="contato.html">Contato</a></li>
     </ul>
     <h1>Olá Amigos</h1>
 
-    <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio fugiat error quibusdam.
-         Aut dignissimos, vero fugiat praesentium nemo unde tempore illo aspernatur suscipit magni 
-         doloremque eveniet expedita quidem reiciendis molestias.
-    </p>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, vel, molestias minima cumque 
-        tenetur labore maxime nobis nemo eaque, quaerat earum et reprehenderit nam incidunt similique!
-         Sed sapiente nisi hic!
-    </p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, atque ab. Cum inventore 
-        porro hic. Ipsam tempore quos id vel quia. Adipisci minima dignissimos aliquid voluptas debitis,
-         doloribus enim corrupti?
-    </p>
-    <img src = "assets/img/OIP.jpg" alt="Foto">
+    <div class="container">
 
-    <h2>Meu vídeo favorito</h2>
-<iframe 
+        <div class="p-one">
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio fugiat error quibusdam.
+                 Aut dignissimos, vero fugiat praesentium nemo unde tempore illo aspernatur suscipit magni 
+                 doloremque eveniet expedita quidem reiciendis molestias.
+             </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, vel, molestias minima cumque 
+                tenetur labore maxime nobis nemo eaque, quaerat earum et reprehenderit nam incidunt similique!
+                 Sed sapiente nisi hic!
+                  </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, atque ab. Cum inventore 
+                porro hic. Ipsam tempore quos id vel quia. Adipisci minima dignissimos aliquid voluptas debitis,
+                 doloribus enim corrupti?   
+                </p>
+                
+        </div>
+
+        <div>
+            <img class="b-50 p-one" src = "assets/img/OIP.jpg" alt="Foto" width="500" height="400">
+        </div>
+      
+
+    </div>
+  
+
+    <h2 class="center">Meu vídeo favorito</h2>
+
+
+<div>
+    <iframe class="p-one centro"
 width="560" 
 height="315" 
 src="https://www.youtube.com/embed/SC4xMk98Pdc?start=18" 
@@ -40,5 +58,8 @@ frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
 allowfullscreen>
 </iframe>
+</div>
+
+
 </body>
 </html>
