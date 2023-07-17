@@ -1,0 +1,53 @@
+/*estilo paginaUm */
+
+p{
+    color: rgb(1, 1, 24);
+    
+}
+h1{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-flow: row;
+
+    justify-content: center;
+    text-align: justify;
+}
+
+#menu li{
+    display: inline;
+    color: rgb(3, 21, 121);
+
+    padding: 20px;
+    margin: 20px;
+    font-size: 20px;
+}
+
+#menu li a{
+    text-decoration: none;
+
+}
+
+#menu li a:hover{
+    color: rgb(141, 130, 130);
+}
+
+.p-one{
+    padding: 30px;
+}
+
+.b-50{
+    border-radius: 50%;
+}
+
+.center{
+    text-align: center;
+}
+
+.centro{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

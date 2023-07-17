@@ -1,0 +1,27 @@
+p{
+    font-size: 20px;
+}
+
+#p-first{
+    font-weight: bold;
+    color: #840907;
+}
+
+.p-color{
+    color: rgb(8, 146, 135);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+
+    border: 5px solid #840907;
+
+padding: 20px;
+margin: 20px;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+}
